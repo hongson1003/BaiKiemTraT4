@@ -38,23 +38,28 @@
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
                     <input type="text" class="form-control form-control-user" id="exampleFirstName" placeholder="First Name">
+                    <span class="myerror" id="errorFirst"></span>
                   </div>
                   <div class="col-sm-6">
                     <input type="text" class="form-control form-control-user" id="exampleLastName" placeholder="Last Name">
+                    <span class="myerror" id="errorLast"></span>
                   </div>
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control form-control-user" id="exampleInputEmail" placeholder="Email Address">
+                  <span class="myerror" id="errorEmail"></span>
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
                     <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                    <span class="myerror" id="errorPass"></span>
                   </div>
                   <div class="col-sm-6">
                     <input type="password" class="form-control form-control-user" id="exampleRepeatPassword" placeholder="Repeat Password">
+                    <span class="myerror" id="errorPassR"></span>
                   </div>
                 </div>
-                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                <a id="mysubmit" href="login.html" class="btn btn-primary btn-user btn-block">
                   Register Account
                 </a>
                 <hr>
@@ -90,6 +95,10 @@
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
 
+
+
+    <!-- link script for cau 2 -->
+    <script src="js/demo/cau2.js"></script>
 </body>
 
 </html>
